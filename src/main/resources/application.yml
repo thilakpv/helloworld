@@ -1,0 +1,5 @@
+
+# https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html
+spring.security.user.name: admin
+spring.security.user.password: admin
+management.endpoints.web.exposure.include: "*"

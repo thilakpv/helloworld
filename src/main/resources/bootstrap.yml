@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: aks-uc1
+  profiles:
+    active: ${KPCONFIG_PROFILE:dev}
+  info:
+    build:
+      version: 0.0.1-SNAPSHOT
